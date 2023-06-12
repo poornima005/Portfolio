@@ -494,6 +494,11 @@ pre {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
+  @media only screen and (max-width: 600px) {
+    .container {
+      max-width: 900px;
+     }
+  }
   @media (min-width: 576px) {
     .container {
       max-width: 900px; } }
@@ -8713,9 +8718,10 @@ h1, h2, h3, h4, h5,
 
 /*Particles*/
 #particles-js {
-  position: absolute;
+ position: absolute;
   width: 100%;
   height: 100%;
+  background: #111111;
 }
 /*Particles*/
 
